@@ -9,7 +9,7 @@ public interface IConjuntoCompleto {
 
     boolean conjuntoVacio(); //Conjunto Inicializado
 
-    void sacar(); //Conjunto Inicializado
+    void sacar(int x); //Conjunto Inicializado
 
-    boolean pertenece(); //Conjunto Inicializado
+    boolean pertenece(int x); //Conjunto Inicializado
 }
