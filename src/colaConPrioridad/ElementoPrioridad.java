@@ -5,6 +5,10 @@ public class ElementoPrioridad {
     private int prioridad;
 
     public ElementoPrioridad() {}
+    public ElementoPrioridad(int valor, int prioridad) { 
+    	this.valor = valor;
+    	this.prioridad = prioridad;
+    }
 
     public int getValor() {
         return valor;
