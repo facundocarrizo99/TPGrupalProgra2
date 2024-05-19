@@ -17,7 +17,7 @@ public class ColaPrioridad implements IColaPrioridad{
     		inicializarCola(); // si no esta inicializada la inicializa
     	}
     	int j = indice;
-        for(; j > 0 && elementos[j-1].getPrioridad() >= prioridad; j-- ){
+        for(; j > 0 && elementos[j-1].getPrioridad() <= prioridad; j-- ){
             elementos[j] = elementos[j-1];
         }
         elementos[j] = new ElementoPrioridad(x, prioridad);
