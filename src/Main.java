@@ -76,8 +76,6 @@ public class Main {
     	//Mostrando conjuntos para validar //
     	System.out.println("Conjunto empresa: " );
 		conjuntoEmpresa = mostrarConjuntoRegresarCopia(conjuntoEmpresa);
-		System.out.println("Conjunto empresa: " );
-		conjuntoEmpresa = mostrarConjuntoRegresarCopia(conjuntoEmpresa);
 		System.out.println("Conjunto particulares: " );
 		conjuntoParticularCliente = mostrarConjuntoRegresarCopia(conjuntoParticularCliente);
 		System.out.println("Conjunto no clientes: " );
